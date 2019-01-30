@@ -1,0 +1,22 @@
+body {
+  margin: 50px 0;
+}
+
+h1 {
+  font-family: 'ZCOOL KuaiLe', cursive;
+  margin: 0;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+#insta {
+    margin: 0px 20px;
+}
+
+img {
+    width: 70px
+}
+
+div {
+    text-align: center;
+}

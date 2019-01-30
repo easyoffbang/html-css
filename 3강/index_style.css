@@ -1,0 +1,41 @@
+@font-face {
+    src: url("../fonts/FIGHTT3.ttf");
+    font-family: "fight";
+}
+h1 {
+    text-align: center;
+    color: aquamarine;
+    font-family: 'Coiny', cursive;
+}
+
+h2 {
+    text-align: center;
+    color: cornflowerblue;
+    font-family: "fight";
+}
+
+h3 {
+    text-align: center;
+    color: dimgrey;
+    font-family: 'Libre Barcode 128 Text', cursive;
+}
+
+p {
+    text-align: center;
+}
+
+p b {
+    font-size: 18px;
+    color: dimgrey;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.GOOGLE {
+    text-align: center;
+    font-family: 'fight';
+}

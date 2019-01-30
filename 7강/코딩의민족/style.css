@@ -1,0 +1,68 @@
+@font-face {
+    font-family: "bmjua";
+    src: url("fonts/BMJUA_ttf.ttf")
+}
+
+* {
+    box-sizing: border-box;
+    font-family: "bmjua";
+    color: #58595B;
+    margin: 0;
+    font-weight: 300;
+}
+
+body{
+    background-color: #F0E8D9;
+}
+.header{
+    font-size: 64px;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 75px;
+}
+.small_header{
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 75px;
+}
+
+
+.menu{
+    width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px
+}
+
+.menu img{
+    height: 200px;
+    border-radius: 10px 10px 0px 0px;
+    display: block;            /*모르겠음*/
+}
+
+.content{
+    background-color: white;
+    border-radius: 0px 0px 10px 10px;
+    padding: 20px;
+    margin-bottom: 50px
+}
+
+.content h1{
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 20px
+}
+
+.content h2{
+    font-size: 16px;
+    margin-bottom: 16px;
+}
+
+
+.buy {
+    color: #0000EE;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+}

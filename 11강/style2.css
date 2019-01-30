@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+}
+
+/* 전체 */
+
+div {
+}
+
+/* 개별 */
+
+#red {
+    float: left;
+    height: 200px;
+    width: 100%;
+    background-color: #FF0000;
+}
+
+#orange {
+    float: left;
+    height: 200px;
+    width: 25%;
+    background-color: orange;
+}
+
+#yellow {
+    float: left;
+    height: 200px;
+    width: 50%;
+    background-color: yellow;
+}
+
+#green {
+    float: left;
+    height: 200px;
+    width: 25%;
+    background-color: green;
+
+}
+
+#blue {
+    float: left;
+    height: 200px;
+    width: 50%;
+    background-color: blue;
+}
+
+#indigo {
+    float: left;
+    height: 200px;
+    width: 50%;
+    background-color: indigo;
+}
+
+#purple {
+    float: left;
+    height: 200px;
+    width: 100%;
+    background-color: purple;
+}

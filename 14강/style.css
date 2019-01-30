@@ -1,0 +1,162 @@
+* {
+    box-sizing: border-box;
+    margin:0;
+  }
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+  }
+div {
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/*For website */
+
+
+/* Grid */
+
+#brandname {
+    color: white;
+    font-size: 20px;
+    margin: 0;
+    padding-left: 30px;
+    display: inline-block;
+    vertical-align: middle;
+}
+#div1 {
+    background-color: #1B1B1B;
+    height: 60px;
+    line-height: 60px;
+}
+#div2 {
+    background-image: url(images/main_img.jpg);
+    height: 350px;
+}
+#div3 {
+    background-color: white;
+    height: 320px;
+    line-height: 320px;
+}
+
+#div3 h2 {
+    font-size: 16px;
+    color: #4A4A4A;
+    margin-bottom: 10px;
+}
+
+#div3 h1 {
+    font-size: 20px;
+    color: #1B1B1B;
+    margin-bottom: 30px;
+}
+
+#div3 p {
+    font-size: 16px;
+    color: #7A7A7A;
+}
+#description {
+    padding: 0 30px;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+}
+
+#div4 {
+    background-image: url(images/img1.jpg);
+    height: 385px;
+}
+
+#div5 #view_button {
+    text-align: center;
+}
+
+#div5 a {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    padding: 9px 40px;
+    border: 4px solid white;
+    vertical-align: middle;
+    display: inline-block;
+    line-height: normal;
+}
+
+#div5{
+    background-image: url(images/img2.jpg);
+    height: 200px;
+    line-height: 200px;
+}
+#div6 {
+    background-image: url(images/img3.jpg);
+    height: 200px;
+}
+
+@media(min-width: 768px) {
+    #div2 {
+        height: 562px;
+    }
+    #div3 {
+        height: 282px;
+        width: 100%;
+    }
+    #description {
+        padding: 0 65px;
+    }
+    #div4 {
+        float: left;
+        margin-left: 0;
+        height: 360px;
+        width: 50%;
+    }
+    #div5{
+        float: left;
+        margin-left: 0;
+        height: 180px;
+        width: 50%;
+    }
+    #div6 {
+        float: left;
+        margin-left: 0;
+        height: 180px;
+        width: 50%;
+    }
+
+}
+
+@media(min-width:992px) {
+    #div2 {
+        float: left;
+        margin-left: 0;
+        height: 700px;
+        width: 50%;
+    }
+
+    #div3 {
+        height: 350px;
+        width: 50%;
+        float: left;
+        margin-left: 0;
+    }
+
+    #div4 {
+        float: left;
+        margin-left: 0;
+        height: 350px;
+        width: 25%;
+    }
+
+    #div5 {
+        float: left;
+        margin-left: 0;
+        height: 175px;
+        width: 25%;
+    }
+
+    #div6 {
+        float: left;
+        margin-left: 0;
+        height: 175px;
+        width: 25%;
+    }
+}
